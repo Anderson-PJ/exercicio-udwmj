@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="css/tela_login.css">
+    <script src="https://kit.fontawesome.com/79f7dc5401.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <div class="container">
+            <div class="content first-content">
+            <div class="first-column">
+               <h2 class="title">Login</h2>
+               <p class="description">Log in to your account to upload or download</p>
+               <p class="description">pictures, videos or music.</p>
+               <form class="form">
+                  <label class="label-input" for=""><br>
+                     <i class="fa-thin fa-at icon-modify"></i>                     
+                     <input type="email" placeholder="Enter your email address">
+                 </label>  
+              </form>
+
+               <br><a href="#">Forgot password?</a><br>
+               <br><button class="btn">Next</button>
+               <p class="description">Or log in with</p>                      
+                        
+               <div class="social-media">
+                  <ul class="list-social-media">
+                      <a class="link-social-media" href="#">
+                           <li class="item-social-media">
+                                <i class="fa-brands fa-facebook"></i>
+                           </li>
+                       </a>
+
+                       <a class="link-social-media" href="#">
+                           <li class="item-social-media">
+                                <i class="fa-brands fa-google"></i>
+                           </li>
+                       <a/>
+                    
+                       <a class="link-social-media" href="#">
+                           <li class="item-social-media">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                           </li>
+                        <a/>   
+                  </ul>
+
+                  <p class="description">Don't have anaccount yet?</p>
+                  <a href="#">Sign up</a>
+               </div>
+            
+
+            </div>   
+        </div>
+        
+    </div>
+    
+      
+</body>
+</html>
