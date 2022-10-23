@@ -1,0 +1,33 @@
+* {
+    margin: 4px;
+    padding: 0px;
+    border-radius: 20px;   
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #314373;
+    color: #CBD2DC;
+    padding: 5px;
+    display: flex;
+}
+h3{
+    text-align: left;
+}
+h4{
+    text-align: left;
+}
+.container {
+    display: flex;
+    width: 50%;
+}
+
+
+strong {
+    background-color: #5CC4DC;
+}
+
+div {
+    list-style: none;
+    justify-content: center;
+}
