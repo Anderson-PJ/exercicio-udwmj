@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Roda Pé</title>
+    <link rel="stylesheet" href="css/rodapé.css">
+</head>
+<body>
+    <footer>
+        <div class="container">
+         <div>
+            <h1>About the Store</h1>
+            <p>Home</p>
+            <p>Become a customer</p>
+            <p>About us</p>
+            <p>FAQ</p>
+            <p>Return policy</p>
+            <p>Contact us</p>
+         </div> 
+
+            
+         <div>
+            <h1>Language</h1>
+            <p>Deutch <strong>English</strong> Espanõl</p>
+            <p>Français Indonesian Italian</p>
+            <p>Nederlands Polnisch Português</p>
+            <p>Pyccknñ Tieng Viêt Turkçe</p>
+         </div>
+
+         <div>
+            <h1>Get in Touch</h1>
+            <figure class="container">
+                <img width="32" height="32" src="img/logo-face.png" alt="ILogotipo">
+                <h4>Face</h4>
+            </figure>
+
+            <figure class="container">
+                <img width="32" height="32" src="img/logo-linkedin.png" alt="ILogotipo">
+                <h4>Linkedin</h4>
+            </figure>
+
+            <figure class="container">
+                <img width="32" height="32" src="img/logo-twitter.png" alt="ILogotipo">
+                <h4>Twitter</h4>
+            </figure>
+            <h3>Terms of purchase Security and privacy Newsletter</h3>
+         </div>
+        </div>
+       
+    </footer>
+</body>
+</html>
