@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2? família= Abrir+Sans:wght@300;400;700 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FAEBEB;
+}
+
+.content {
+    background-color: #5cc3e2;
+    border-radius: 25px;
+    width: 850px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 65%;
+    height: 100%;
+    z-index: 1;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.title {
+    color: #132845;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #132845;
+    line-height: 30px;
+}
+
+.btn {
+    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: #132845;
+    color: #FFF;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.first-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.first-column {
+    margin: 50px;
+    text-align: left;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+
+.second-column {
+    flex: 2 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+.social-media {
+    color: #bdc3c7;
+}
+
+.item-social-media {
+    border: 2px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 10px;
+    color: #bdc3c7;
+}
+
+.form {
+    flex-direction: column;
+    width: 100%; 
+}
+
+.label-input {    
+    align-items: center;
+    margin: 8px;
+    display: flex;
+    align-items: center;    
+}
+
+.icon-modify {
+    padding: 0 5px;
+}
+.form input {
+    height: 45px;
+    border: 1px solid #132845; 
+    background-color: #fff;
+    width: 35%;
+    text-align: center;           
+}
